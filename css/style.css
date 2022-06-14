@@ -1,0 +1,168 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%) ;
+    display: grid;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+    width: auto;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 290px;
+    
+    
+}
+
+
+/* .img-card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+
+.img-card:hover{
+    
+    background-image: url(/nft-preview-card-component-main/images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;    
+} */
+
+.img-contain{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+
+.img-contain figure{
+    position: relative;
+    width: 411px;
+    height: 375px;
+    margin: 0;
+
+}
+
+.img-contain figure .img-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.img-contain figure .eye{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: hsl(178, 100%, 50% , 0.6);
+    background-image: url(/nft-preview-card-component-main/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center center;    
+    visibility: hidden;
+}
+.img-contain figure:hover > .eye{
+    cursor: pointer;
+    visibility: visible;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.title:hover,
+.autor:hover{
+    color:hsl(178, 100%, 50%) ;
+    cursor: pointer;
+
+}
+.paragraph p{
+    margin-top: 0;
+}
+
+.paragraph,
+.item2,
+.text{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 6% 30% 36% 30%;
+    
+    
+}
+
+.item1{
+    color:#0afcfa;
+}
+
+.item1,
+.item2{
+   margin: 0;
+}
+
+.img-item{
+    margin-top: 3px;
+    max-width: 100%;
+
+}
+
+.icon2{
+    display: block;
+    margin-left: auto;
+    margin-right: 3%;
+}
+
+.avatar{
+    border-radius: 155px;
+    border: 1px solid #bfc5cb;
+    width: 40%;
+    margin: auto;
+
+}
+
+.section{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border-top: 1px solid #6c84a080;
+    padding-top: 16px;
+}
+
+
+.attribution{
+    font-size: 11px; text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
